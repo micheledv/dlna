@@ -1,0 +1,14 @@
+[project]
+name = "dlna"
+version = "0.1.0"
+description = "Browse DLNA media servers, play items in mpv, export M3U playlists"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+dlna = "dlna.cli:main"
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"
